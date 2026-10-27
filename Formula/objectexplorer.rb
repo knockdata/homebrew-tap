@@ -1,31 +1,31 @@
 # Homebrew formula for objectexplorer's binary (plan.md Phase 7.5): the server
-# and command line, macOS and Linux. tools/create-release.sh fills 0.9.8 and the
+# and command line, macOS and Linux. tools/create-release.sh fills 0.9.15 and the
 # sha256 of each release tarball. `brew install knockdata/tap/objectexplorer`
 class Objectexplorer < Formula
   desc "The VSCode for Cloud Storage: explore, analyze and search files and buckets"
   homepage "https://objectexplorer.com"
-  version "0.9.8"
+  version "0.9.15"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/knockdata/objectexplorer/releases/download/v0.9.8/objectexplorer-darwin-arm64.tar.gz"
-      sha256 "b120c359723cbbc683cbc5b338266675947734b936d6f9768a283fa099e8cc09"
+      url "https://github.com/knockdata/objectexplorer/releases/download/v0.9.15/objectexplorer-darwin-arm64.tar.gz"
+      sha256 "2ee76bef1f16c5cbc2fbe342e87ee5c6ebaa512c56e1df7d05ea375bca9045b5"
     end
     on_intel do
-      url "https://github.com/knockdata/objectexplorer/releases/download/v0.9.8/objectexplorer-darwin-x64.tar.gz"
-      sha256 "b53337ad58d0d9664cb0b27c58ad78685fd80fe6b8dada85fb6eb8fd232b385d"
+      url "https://github.com/knockdata/objectexplorer/releases/download/v0.9.15/objectexplorer-darwin-x64.tar.gz"
+      sha256 "f4ed305e05ce9bd829f69c005b2a953f66362f22f92c5cd138e3891d35d6ce89"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/knockdata/objectexplorer/releases/download/v0.9.8/objectexplorer-linux-arm64.tar.gz"
-      sha256 "0df3ebfd4c9e99de14d57a268b37d40f7de8297ca112f8343a44e2d963268005"
+      url "https://github.com/knockdata/objectexplorer/releases/download/v0.9.15/objectexplorer-linux-arm64.tar.gz"
+      sha256 "9a4357cb1d62e77a019ce7d8b53e24558ba03c345e0165e5df18bf904e11a259"
     end
     on_intel do
-      url "https://github.com/knockdata/objectexplorer/releases/download/v0.9.8/objectexplorer-linux-x64.tar.gz"
-      sha256 "e2bb3ead9a43652ca755c9510ce8abe81d90bda2d0a4aaff66f1754f989caf69"
+      url "https://github.com/knockdata/objectexplorer/releases/download/v0.9.15/objectexplorer-linux-x64.tar.gz"
+      sha256 "d293f3fc1a608471fcce3d45e407488ff916e74e6251e2b08134b25bee02a9c9"
     end
   end
 

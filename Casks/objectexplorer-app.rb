@@ -1,12 +1,12 @@
 # Homebrew cask for objectexplorer's desktop app (plan.md Phase 7.5): the
 # same code base as the formula's binary, as a macOS .app. tools/create-release.sh
-# fills 0.9.8 and the sha256. `brew install --cask knockdata/tap/objectexplorer-app`
+# fills 0.9.15 and the sha256. `brew install --cask knockdata/tap/objectexplorer-app`
 cask "objectexplorer-app" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.9.8"
-  sha256 arm:   "8f0456860bd42643741886558f119c507bbab0a2761cc607b6c77e3f9c4633b1",
-         intel: "71540ea6a7155bc5d73798fa06f07ced1b7d4e65e770cf8bca9b2270c601051b"
+  version "0.9.15"
+  sha256 arm:   "b34472267c2379dbe8117705f055e9e23fc66d466725a0774ce6b9335f3b4cbe",
+         intel: "897a946368892463a012836d3bfdef6e97600b9f9b172437bbcca2aaa522778b"
 
   url "https://github.com/knockdata/objectexplorer/releases/download/v#{version}/objectexplorer-app-darwin-#{arch}.dmg"
   name "objectexplorer"
