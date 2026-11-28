@@ -1,12 +1,12 @@
 # Homebrew cask for objectexplorer's desktop app: the
 # same code base as the formula's binary, as a macOS .app. tools/create-release.sh
-# fills 0.9.47 and the sha256. `brew install --cask knockdata/tap/objectexplorer-app`
+# fills 0.9.48 and the sha256. `brew install --cask knockdata/tap/objectexplorer-app`
 cask "objectexplorer-app" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.9.47"
-  sha256 arm:   "02ebf0c7314b3e118d817c058ba8d2939f0a1cebafd98dbb1b1a4f6d1ec02372",
-         intel: "7d90ed57db1d22257e0e70c46d69da51071b914f373cbed33abc0457f835b6c8"
+  version "0.9.48"
+  sha256 arm:   "d29cfeb3838fbee81f30d7f625516d9f97b879a2888cc7055a0e2c4592a357d6",
+         intel: "9433754bdc92f817d49250887131934d52fcac662cc07c9521ed0784cc62b7b6"
 
   url "https://github.com/knockdata/objectexplorer/releases/download/v#{version}/objectexplorer-mac-#{arch}.dmg"
   name "objectexplorer"
